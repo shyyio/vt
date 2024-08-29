@@ -4,7 +4,7 @@
       <List :index="index"/>
     </div>
 
-    <iframe allow="camera; microphone" src="https://spec.sumianvoice.com/" width="100%" height="500px"></iframe>
+    <iframe allow="microphone" src="https://spec.sumianvoice.com/" width="100%" height="500px"></iframe>
   </div>
 </template>
 
