@@ -17,7 +17,7 @@ defineProps({
 
 <style scoped>
 .list-item {
-  font-size: 140%;
+  font-size: 100%;
 }
 p {
   margin-block-end: 0;
