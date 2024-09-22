@@ -23,8 +23,11 @@ import {ref} from "vue";
 
 const index = ref(0);
 
-function onClick() {
+function updateIndex() {
   index.value = Math.floor(Math.random()*LISTS.length);
-  console.log(index)
 }
+function onClick() {
+  updateIndex();
+}
+updateIndex();
 </script>
