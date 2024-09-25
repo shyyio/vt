@@ -30,4 +30,10 @@ function onClick() {
   updateIndex();
 }
 updateIndex();
+
+document.onkeydown = e => {
+  if (e.key === " ") {
+    updateIndex();
+  }
+}
 </script>
