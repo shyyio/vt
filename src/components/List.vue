@@ -9,6 +9,7 @@ defineProps({
 
 <template>
   <div style="cursor: pointer;">
+    <strong>{{index + 1}}.</strong>
     <p class="list-item" v-for="item in LISTS[index]">
       {{item}}
     </p>
